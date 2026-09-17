@@ -1,4 +1,4 @@
-const REQUEST_TIMEOUT_MS = 8_000;
+const REQUEST_TIMEOUT_MS = 20_000;
 
 export async function getJson(url: string): Promise<unknown> {
   const response = await fetch(url, {
